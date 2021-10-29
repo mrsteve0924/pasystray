@@ -30,7 +30,7 @@
 
 static const char* COMMAND_PAMAN = "paman";
 static const char* COMMAND_PAEQUALIZER = "qpaeq";
-static const char* COMMAND_PAVUCONTROL = "pavucontrol";
+static const char* COMMAND_PAVUCONTROL = "pavucontrol -t 3";
 static const char* COMMAND_PAVUMETER = "pavumeter";
 static const char* COMMAND_PAVUMETER_REC = "pavumeter --record";
 static const char* COMMAND_PAPREFS = "paprefs";
