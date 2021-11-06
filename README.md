@@ -1,3 +1,5 @@
+added -t 3 option to pavucontrol
+
 PulseAudio System Tray
 ======================
 [![build](https://github.com/christophgysin/pasystray/actions/workflows/build.yml/badge.svg)](https://github.com/christophgysin/pasystray/actions/workflows/build.yml)
