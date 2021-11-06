@@ -1,4 +1,4 @@
-added -t 3 option to pavucontrol
+forked just to add -t 3 option to pavucontrol
 
 PulseAudio System Tray
 ======================
