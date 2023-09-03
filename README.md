@@ -8,19 +8,15 @@ pasystray allows setting the default PulseAudio source/sink and moving
 streams on the fly between sources/sinks without restarting the client
 applications.
 
-<a href="https://repology.org/project/pasystray/versions">
-  <img align="right" src="https://repology.org/badge/vertical-allrepos/pasystray.svg?exclude_sources=site&exclude_unsupported=1" alt="Packaging status">
-</a>
-
 ## Installation
-autoreconf -vif
-./configure --prefix=/usr --sysconfdir=/etc
-make
-make install
+autoreconf -vif  
+./configure --prefix=/usr --sysconfdir=/etc  
+make  
+make install  
 
-FOR WAYLAND
-add these options to configure
---enable-appindicator --disable-x11
+FOR WAYLAND  
+add these options to configure  
+--enable-appindicator --disable-x11  
 
 ## Usage
 
