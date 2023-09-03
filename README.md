@@ -12,6 +12,16 @@ applications.
   <img align="right" src="https://repology.org/badge/vertical-allrepos/pasystray.svg?exclude_sources=site&exclude_unsupported=1" alt="Packaging status">
 </a>
 
+## Installation
+autoreconf -vif
+./configure --prefix=/usr --sysconfdir=/etc
+make
+make install
+
+FOR WAYLAND
+add these options to configure
+--enable-appindicator --disable-x11
+
 ## Usage
 
 ```
