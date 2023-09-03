@@ -38,6 +38,7 @@ Application Options:
   --include-monitors        Include monitor sources
   -g, --key-grabbing        Grab volume control keys
   -N, --notify=OPTION       Set notification options, use --notify=help for a list of valid options
+  -S, --symbolic-icons      Prefer symbolic icons
   --display=DISPLAY         X display to use
 ```
 
